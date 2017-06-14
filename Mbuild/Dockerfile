@@ -12,6 +12,8 @@ COPY schema.sql C:/mysql-5.5.55-winx64/bin
 
 COPY privileges.sql C:/mysql-5.5.55-winx64/bin
 
+COPY aaa.txt C:/mysql-5.5.55-winx64/bin
+
 CMD ["C:/mysql-5.5.55-winx64/bin/mysqld.exe"]
 
 
